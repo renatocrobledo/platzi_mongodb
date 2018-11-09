@@ -1,11 +1,13 @@
 # platzi_mongodb: CRUD
 
+[Manual MongoDb crud](https://docs.mongodb.com/manual/crud/)
+
 ## Users
 ```js
 db.getCollection("users").insert([
   { _id: "1", name: "Renato Cacho", rides: 10  },
   { _id: "2", name: "Fulano de Tal", rides: 20 },
-  { _id: "3", name: "perengano Glez", rides: 19 },
+  { _id: "3", name: "Perengano Glez", rides: 19 },
   { _id: "4", name: "Rafaelo Gimenez" , rides: 25 },
   { _id: "5", name: "Angela Aguas", rides: 33 },
   { _id: "6", name: "Anastasia Mercado", rides: 5 },
