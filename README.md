@@ -1,2 +1,10 @@
 # platzi_mongodb
-Hola! aquí encontraras los recursos del curso de MongoDb
+
+## Text search 
+```js
+
+ db.getCollection('users').createIndex({name: "text"})
+ db.getCollection('users').find({$text: {$search: "de"}})
+ db.getCollection('users').find({$text: {$search: "de", $caseSensitive: true}})
+
+```
