@@ -18,7 +18,7 @@ db.getCollection("users").insert([
 ```
 
 ```js
-// Proyections
+// Projections
   db.getCollection('users').find({},{name: 1})
 
 // Limit:
