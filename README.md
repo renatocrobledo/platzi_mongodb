@@ -1,5 +1,6 @@
 # platzi_mongodb: CRUD
 
+## Users
 ```js
 db.getCollection("users").insert([
   { _id: "1", name: "Renato Cacho", rides: 10  },
@@ -16,6 +17,7 @@ db.getCollection("users").insert([
 ])
 ```
 
+## Cars
 ```js
 db.getCollection('cars').insert([
   { _id: "1", driverUser: "6", 
@@ -57,6 +59,7 @@ db.getCollection('cars').insert([
 ])
 ```
 
+## Sessions
 ```js
 db.getCollection('sessions').insert([
   {user:"1", date: new Date("2018-11-09")},
@@ -72,6 +75,8 @@ db.getCollection('sessions').insert([
   {user:"11", date: new Date("2018-11-01")}
 ]) 
 ```
+
+## Rides
 ```js
 db.getCollection('rides').insert([
   { 
@@ -142,5 +147,4 @@ db.getCollection('rides').insert([
   }
 ])
 ```
-```js
-```
+
